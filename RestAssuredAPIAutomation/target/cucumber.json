@@ -1,0 +1,1008 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 17,
+        "name": "Verify post api with different parameters",
+        "description": "",
+        "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-post-api-with-different-parameters;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 270606200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "post api URI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "post",
+                  "offset": 0
+                }
+              ],
+              "location": "SocialNetworkingStepDef.apiURI(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2850721500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "requesting post api with \"id\u003d59\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "post",
+                  "offset": 11
+                },
+                {
+                  "val": "id\u003d59",
+                  "offset": 26
+                }
+              ],
+              "location": "SocialNetworkingStepDef.requestingApiWith(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5545000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify post api response code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "post",
+                  "offset": 7
+                },
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 163254500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify post api response counts \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "post",
+                  "offset": 7
+                },
+                {
+                  "val": "1",
+                  "offset": 33
+                }
+              ],
+              "location": "SocialNetworkingStepDef.verifyApiResponseCounts(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2316600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify post response has with attributes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "post",
+                  "offset": 7
+                }
+              ],
+              "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userId"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "id"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "title"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "body"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@apiservtests"
+          },
+          {
+            "line": 3,
+            "name": "@firsttest"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Verify post api with different parameters",
+        "description": "",
+        "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-post-api-with-different-parameters;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1969700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "post api URI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "post",
+                  "offset": 0
+                }
+              ],
+              "location": "SocialNetworkingStepDef.apiURI(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 656348100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "requesting post api with \"userId\u003d6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "post",
+                  "offset": 11
+                },
+                {
+                  "val": "userId\u003d6",
+                  "offset": 26
+                }
+              ],
+              "location": "SocialNetworkingStepDef.requestingApiWith(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2437800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify post api response code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "post",
+                  "offset": 7
+                },
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4986700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify post api response counts \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "post",
+                  "offset": 7
+                },
+                {
+                  "val": "10",
+                  "offset": 33
+                }
+              ],
+              "location": "SocialNetworkingStepDef.verifyApiResponseCounts(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3147700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify post response has with attributes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "post",
+                  "offset": 7
+                }
+              ],
+              "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userId"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "id"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "title"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "body"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@apiservtests"
+          },
+          {
+            "line": 3,
+            "name": "@firsttest"
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Verify comments api with different parameters",
+        "description": "",
+        "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-comments-api-with-different-parameters;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4232400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "comments api URI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "comments",
+                  "offset": 0
+                }
+              ],
+              "location": "SocialNetworkingStepDef.apiURI(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 669325100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "requesting comments api with \"email\u003dNikita@garfield.biz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "comments",
+                  "offset": 11
+                },
+                {
+                  "val": "email\u003dNikita@garfield.biz",
+                  "offset": 30
+                }
+              ],
+              "location": "SocialNetworkingStepDef.requestingApiWith(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2029700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify comments api response code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "comments",
+                  "offset": 7
+                },
+                {
+                  "val": "200",
+                  "offset": 35
+                }
+              ],
+              "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2674900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Verify comments api response counts \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "comments",
+                  "offset": 7
+                },
+                {
+                  "val": "1",
+                  "offset": 37
+                }
+              ],
+              "location": "SocialNetworkingStepDef.verifyApiResponseCounts(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2247200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify comments response has with attributes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "comments",
+                  "offset": 7
+                }
+              ],
+              "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "postId"
+                ],
+                "line": 26
+              },
+              {
+                "cells": [
+                  "id"
+                ],
+                "line": 27
+              },
+              {
+                "cells": [
+                  "name"
+                ],
+                "line": 28
+              },
+              {
+                "cells": [
+                  "email"
+                ],
+                "line": 29
+              },
+              {
+                "cells": [
+                  "body"
+                ],
+                "line": 30
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@apiservtests"
+          },
+          {
+            "line": 19,
+            "name": "@secondtest"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Verify comments api with different parameters",
+        "description": "",
+        "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-comments-api-with-different-parameters;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4763600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "comments api URI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "comments",
+                  "offset": 0
+                }
+              ],
+              "location": "SocialNetworkingStepDef.apiURI(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 782189400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "requesting comments api with \"postId\u003d3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "comments",
+                  "offset": 11
+                },
+                {
+                  "val": "postId\u003d3",
+                  "offset": 30
+                }
+              ],
+              "location": "SocialNetworkingStepDef.requestingApiWith(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2196200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify comments api response code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "comments",
+                  "offset": 7
+                },
+                {
+                  "val": "200",
+                  "offset": 35
+                }
+              ],
+              "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2887400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Verify comments api response counts \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "comments",
+                  "offset": 7
+                },
+                {
+                  "val": "5",
+                  "offset": 37
+                }
+              ],
+              "location": "SocialNetworkingStepDef.verifyApiResponseCounts(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3700600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify comments response has with attributes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "comments",
+                  "offset": 7
+                }
+              ],
+              "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "postId"
+                ],
+                "line": 26
+              },
+              {
+                "cells": [
+                  "id"
+                ],
+                "line": 27
+              },
+              {
+                "cells": [
+                  "name"
+                ],
+                "line": 28
+              },
+              {
+                "cells": [
+                  "email"
+                ],
+                "line": 29
+              },
+              {
+                "cells": [
+                  "body"
+                ],
+                "line": 30
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@apiservtests"
+          },
+          {
+            "line": 19,
+            "name": "@secondtest"
+          }
+        ]
+      },
+      {
+        "line": 53,
+        "name": "Verify users api with different parameters",
+        "description": "",
+        "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-users-api-with-different-parameters;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4231600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "users api URI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "users",
+                  "offset": 0
+                }
+              ],
+              "location": "SocialNetworkingStepDef.apiURI(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 605315900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "requesting users api with \"website\u003danastasia.net\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "users",
+                  "offset": 11
+                },
+                {
+                  "val": "website\u003danastasia.net",
+                  "offset": 27
+                }
+              ],
+              "location": "SocialNetworkingStepDef.requestingApiWith(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2635300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Verify users api response code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "users",
+                  "offset": 7
+                },
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2578500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Verify users api response counts \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "users",
+                  "offset": 7
+                },
+                {
+                  "val": "1",
+                  "offset": 34
+                }
+              ],
+              "location": "SocialNetworkingStepDef.verifyApiResponseCounts(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2042300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Verify users response has with attributes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "users",
+                  "offset": 7
+                }
+              ],
+              "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id"
+                ],
+                "line": 43
+              },
+              {
+                "cells": [
+                  "name"
+                ],
+                "line": 44
+              },
+              {
+                "cells": [
+                  "phone"
+                ],
+                "line": 45
+              },
+              {
+                "cells": [
+                  "email"
+                ],
+                "line": 46
+              },
+              {
+                "cells": [
+                  "website"
+                ],
+                "line": 47
+              },
+              {
+                "cells": [
+                  "company"
+                ],
+                "line": 48
+              },
+              {
+                "cells": [
+                  "address"
+                ],
+                "line": 49
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@apiservtests"
+          },
+          {
+            "line": 36,
+            "name": "@thirdtest"
+          }
+        ]
+      },
+      {
+        "line": 54,
+        "name": "Verify users api with different parameters",
+        "description": "",
+        "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-users-api-with-different-parameters;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4486000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "users api URI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "users",
+                  "offset": 0
+                }
+              ],
+              "location": "SocialNetworkingStepDef.apiURI(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 651805900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "requesting users api with \"id\u003d9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "users",
+                  "offset": 11
+                },
+                {
+                  "val": "id\u003d9",
+                  "offset": 27
+                }
+              ],
+              "location": "SocialNetworkingStepDef.requestingApiWith(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1919100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Verify users api response code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "users",
+                  "offset": 7
+                },
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2273800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Verify users api response counts \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "users",
+                  "offset": 7
+                },
+                {
+                  "val": "1",
+                  "offset": 34
+                }
+              ],
+              "location": "SocialNetworkingStepDef.verifyApiResponseCounts(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1637100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Verify users response has with attributes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "users",
+                  "offset": 7
+                }
+              ],
+              "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id"
+                ],
+                "line": 43
+              },
+              {
+                "cells": [
+                  "name"
+                ],
+                "line": 44
+              },
+              {
+                "cells": [
+                  "phone"
+                ],
+                "line": 45
+              },
+              {
+                "cells": [
+                  "email"
+                ],
+                "line": 46
+              },
+              {
+                "cells": [
+                  "website"
+                ],
+                "line": 47
+              },
+              {
+                "cells": [
+                  "company"
+                ],
+                "line": 48
+              },
+              {
+                "cells": [
+                  "address"
+                ],
+                "line": 49
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@apiservtests"
+          },
+          {
+            "line": 36,
+            "name": "@thirdtest"
+          }
+        ]
+      }
+    ],
+    "name": "POST, GET APIs validation with paramenters passed and validate the response",
+    "description": "",
+    "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/socialNetworkingServices.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@apiservtests"
+      }
+    ]
+  }
+]
